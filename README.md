@@ -15,17 +15,10 @@ Ideal for **crowd analytics, retail, smart surveillance, and traffic monitoring*
 
 ---
 
-## 📸 Demo
-<p align="center">
-  <img src="assets/demo.gif" alt="YOLOv8 DeepSORT People Counting Demo" width="700">
-</p>
-
----
-
 ## 🛠️ Installation
 
 ### 1️⃣ Clone this repo
-```bash
+
 git clone https://github.com/your-username/people-counting-yolov8.git
 cd people-counting-yolov8
 
@@ -42,6 +35,8 @@ Check with:
 
 python -c "import torch; print(torch.cuda.is_available())"
 
+---
+
 🚀 Usage
 Run the People Counter
 python people_counter.py
@@ -55,6 +50,8 @@ RTSP_URL → your RTSP camera stream URL
 CONFIDENCE_THRESHOLD → minimum confidence for detection (default: 0.5)
 
 GPU_DEVICE → set 0 for GPU, or cpu
+
+---
 
 🎮 How It Works
 
@@ -70,6 +67,8 @@ Checks if a person’s path crosses the line → increments counter.
 
 Displays real-time bounding boxes, IDs, trajectories, and total count.
 
+---
+
 📂 Project Structure
 📦 people-counting-yolov8
  ┣ 📜 people_counter.py     # Main script
@@ -77,6 +76,8 @@ Displays real-time bounding boxes, IDs, trajectories, and total count.
  ┣ 📜 README.md             # This file
  ┗ 📂 assets
     ┗ 📜 demo.gif           # Demo video/image
+
+---
 
 🔮 Future Improvements
 
@@ -87,6 +88,8 @@ Displays real-time bounding boxes, IDs, trajectories, and total count.
  Support for multiple cameras
 
  Export results (CSV / database logging)
+
+---
 
 🤝 Contributing
 
